@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+/* HEADER */
+header {
+    background-image: url(../imgs/background_image_header.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 552px;
+}
+
+#header-first-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#header-first-div>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+#header-first-div>div:nth-child(1) i {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#header-first-div > button {
+    background-color: #FFBC0D;
+    border: none;
+    padding: 10px 55px;
+    font-weight: 500;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+}
+
+#header-first-div > button:hover {
+    background-color: #daa31a
+}
+
+#logo-header {
+    width: 36px;
+}
+
+#header-second-div {
+    color: white;
+    margin-left: 100px;
+}
+
+#header-second-div a {
+    color: white;
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+    margin-right: 50px;
+}
+
+#header-second-div > div:nth-child(1) {
+    margin-bottom: 90px;
+}
+
+#header-second-div > div:nth-child(2) h1 {
+    font-size: 45px;
+}
+
+.btn-retirada {
+    border: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.p-btn-retirada {
+    z-index: 100;
+    position: relative;
+    transition: all 150ms ease-in-out;
+}
+
+.bg-btn-retirada {
+    position: absolute;
+    background-color: #FFBC0D;
+    width: 100%;
+    height: 0%;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    z-index: 10;
+    transition: all 150ms ease-in-out;
+}
+
+.btn-retirada:hover .bg-btn-retirada {
+    height: 100%;
+}
+
+.btn-retirada:hover .p-btn-retirada{
+    color: #ca0000;
+}
+
+#header-second-div > div:nth-child(2) > div {
+    margin-top: 30px;
+}
