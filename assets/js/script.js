@@ -9,7 +9,6 @@ $(".carousel-header-bottom").owlCarousel({
 // Lógica das perguntas e respostas
 
 let btnsPerguntas = document.querySelectorAll(".btn-pergunta-item");
-// let ti
 let divRespostas = document.querySelectorAll(".div-resposta");
 let setas = document.querySelectorAll(".seta-down");
 
@@ -25,7 +24,6 @@ btnsPerguntas.forEach((btn, index) => {
 
             titleBtn.style.fontWeight = "bold";
         }
-
 
         divRespostas.forEach((divResp, indexResp) => {
             if (index == indexResp) {
