@@ -13,6 +13,7 @@ header {
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 0, 0.336);
     height: 552px;
+    margin-bottom: 30px;
 }
 
 #header-first-div {
@@ -109,4 +110,31 @@ header {
 
 #header-second-div > div:nth-child(2) > div {
     margin-top: 30px;
+}
+
+#nav-bottom-header {
+    width: 85%;
+    margin: auto;
+}
+
+#nav-bottom-header nav {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+}
+
+#nav-bottom-header img {
+    width: 50px;
+}
+
+#nav-bottom-header a {
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
