@@ -23,7 +23,7 @@ Reproduzir o layout e interações de um site profissional para treinar habilida
 
 ## 📸 Preview
 
-[Preview do projeto]([(https://lucasdasilvaoliveira.github.io/clone-mcdonalds/)]) 
+[Preview do projeto](https://lucasdasilvaoliveira.github.io/clone-mcdonalds/) 
 
 ---
 
