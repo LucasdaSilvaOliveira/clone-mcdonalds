@@ -129,7 +129,7 @@ header {
 
 #nav-bottom-header a {
     font-size: 12px;
-    color: black;
+    color: #292929;
     font-weight: 500;
     text-decoration: none;
     width: 120px;
@@ -137,4 +137,135 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+/* DIV TITLE IMG */
+
+#div-title-img {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#div-title-img > div {
+    padding-left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #292929;
+}
+
+#div-title-img img {
+    width: 605px;
+}
+
+/* DIV IMG LINE */
+
+#div-img-line {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+#div-img-line > div > img {
+    width: 100%;
+}
+
+/* DIV DESENHOS */
+
+#div-desenhos {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#desenhos-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#desenhos-content > div {
+    width: 300px;
+}
+
+#desenhos-content > div img {
+    width: 80%;
+}
+
+#desenhos-content > div p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#div-banner-app {
+    width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#div-banner-app img {
+    width: 100%;
+}
+
+/* DIV PERGUNTAS */
+
+#div-perguntas {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#div-perguntas > h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+#div-perguntas h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.pergunta-item {
+    margin-bottom: 30px;
+}
+
+.btn-pergunta-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-pergunta-item h2 {
+    transition: all 250ms ease-in-out;
+}
+
+.div-resposta {
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    transition: all 250ms ease-in-out;
+    height: 0;
+    overflow-y: hidden;
+}
+
+.seta-down {
+    transition: all 250ms ease-in-out;
+}
+
+.toggle-class-resposta {
+    height: 78px;
+}
+
+.toggle-class-seta {
+   transform: rotate(180deg);
+}
+
+.toggle-class-h2 {
+    font-weight: bold;
+}
+
+.pergunta-item p {
+    font-size: 14px;
 }
